@@ -1,30 +1,36 @@
 import React from 'react'
+import { FaHome } from "react-icons/fa"
+import { FaUserCircle } from "react-icons/fa";
+import { PiPlantDuotone } from "react-icons/pi";
 
 export const Navbar = () => {
   return (
     <div>
-
-      <div>
+        <div>
         <a href="/#">
             <img src="/logoaqua.png" alt='' />
         </a>
+
         </div>
 
-        <div>
           <div>
           <a href="/#">
-            Home
+            <div>
+            <span>Home</span>
+            <FaHome/>
+            </div>
           </a>
-          </div>
+
           <div>
-          <a href="/#">
-            Productos
-          </a>
+            <span> Productos</span>
+            <PiPlantDuotone/>
           </div>
+
           <div>
-          <a href="/#">
+            <span>
             Iniciar Sesión
-          </a>
+          </span>
+          <FaUserCircle/>
           </div>
       </div>
     </div>
