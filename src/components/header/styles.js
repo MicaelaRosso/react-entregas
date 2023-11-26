@@ -46,4 +46,16 @@ export const HeaderTextContainer = styled.div`
         text-align: center;
     }
 `
+/*Contenedor imagen*/
+
+export const HeaderImageContainer = styled.div`
+width: 70%;
+img {
+    width: 100%;
+    padding-bottom: 40px;
+}
+@media (max-width: 1000px) {
+    display: none;
+} /*Le digo que por debajo de los 1000px no se muestre*/
+`
 
