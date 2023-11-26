@@ -1,11 +1,14 @@
 import React from 'react'
+import { motion } from "framer-motion"; 
 import { FaHome } from "react-icons/fa"
 import { FaUserCircle } from "react-icons/fa";
 import { PiPlantDuotone } from "react-icons/pi";
+import { HomeContainer, LinkContainer, NavbarContainer, UserContainer } from './styles';
+import { LinksContainer } from './styles';
 
 export const Navbar = () => {
   return (
-    <div>
+    <NavbarContainer>
         <div>
         <a href="/#">
             <img src="/logoaqua.png" alt='' />
@@ -13,26 +16,31 @@ export const Navbar = () => {
 
         </div>
 
-          <div>
+          <LinksContainer>
+          <HomeContainer>
+            <motion.div whileTap={{scale: 0.97}}>
+            
           <a href="/#">
-            <div>
-            <span>Home</span>
+            <LinkContainer
+            home= {true}>
+            <span>Home </span>
             <FaHome/>
-            </div>
+            </LinkContainer>
           </a>
 
-          <div>
-            <span> Productos</span>
-            <PiPlantDuotone/>
-          </div>
+          </motion.div>
 
-          <div>
-            <span>
-            Iniciar Sesión
-          </span>
+          <LinkContainer>
+            <span> Productos </span>
+            <PiPlantDuotone/>
+          </LinkContainer>
+
+          <UserContainer>
+            <span> Iniciar Sesión </span>
           <FaUserCircle/>
-          </div>
-      </div>
-    </div>
+          </UserContainer>
+          </HomeContainer>
+      </LinksContainer>
+      </NavbarContainer>
   )
 }
