@@ -42,6 +42,7 @@ align-items: center;
 
 export const HomeContainer = styled(LinkContainer)`
 display: flex;
+gap: 2rem;
 align-items: center;
 @media (max-width: 768px){
     display: none;
@@ -56,13 +57,13 @@ cursor: pointer;
     display: flex;
 }
 `
-export const UerNav = styled.div`
+export const UserNav = styled.div`
 gap: 15px;
 cursor: pointer;
 span {
     color: white;
-    font-size: 1rem;
-    margin-top: 20px;
+    /*font-size: 1rem;
+    margin-top: 20px;*/
 }
 @media (max-width: 768px){
     display: none;
