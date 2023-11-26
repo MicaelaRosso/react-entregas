@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion"; 
 import { FaHome } from "react-icons/fa"
 import { FaUserCircle } from "react-icons/fa";
-import { HomeContainer, LinkContainer, NavbarContainer, SpanStyled, UserContainer, UserNav } from './styles';
+import { HomeContainer, LinkContainer, NavbarContainer, ProductsNav, SpanStyled, UserContainer, UserNav } from './styles';
 import { LinksContainer } from './styles';
 
 export const Navbar = () => {
@@ -27,12 +27,19 @@ export const Navbar = () => {
           </a>
 
         </motion.div>
+          
+        <ProductsNav>
+        <SpanStyled> Productos </SpanStyled>
+            </ProductsNav>
+          
           <UserNav>
           
           <UserContainer>
           
           <SpanStyled> Iniciar Sesión  </SpanStyled>
-          <FaUserCircle/>            
+          
+          <FaUserCircle/>  
+                    
           </UserContainer>
           </UserNav>
           </HomeContainer>

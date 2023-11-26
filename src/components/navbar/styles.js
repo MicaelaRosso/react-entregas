@@ -20,14 +20,14 @@ align-items: center;
 gap: 40px;
 a {
     padding: 1rem 1.5rem;
-  }
-a:first-child {
+    &:first-child{
     background-color: var(--green-bg);
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+}
 }
 `
 export const LinkContainer = styled.div `
@@ -38,6 +38,7 @@ color: ${(props) => {props.home ?"#ffd01" : "#ff9300"}};
 export const UserContainer = styled.div`
 display: flex;
 align-items: center;
+gap: 10px;
 `
 
 export const HomeContainer = styled(LinkContainer)`
@@ -75,9 +76,21 @@ height: 30px;
 border-radius: 100px;
 cursor: pointer;
 ` 
-
 export const SpanStyled = styled.span`
 &:hover{
     text-decoration: underline;
+}
+`
+/* PRODUTOS*/
+export const ProductsNav = styled.div`
+gap: 15px;
+cursor: pointer;
+span {
+    color: white;
+    /*font-size: 1rem;
+    margin-top: 20px;*/
+}
+@media (max-width: 768px){
+    display: none;
 }
 `
