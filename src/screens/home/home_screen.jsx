@@ -11,11 +11,12 @@ export const HomeScreen = () => {
     return (
         <div>
         <Navbar/>
-        <HomeLayout/>
+        <HomeLayout>
         <Header/>
-       { /*<CategoryWidget /> */}
+       <CategoryWidget/>
+       <ProductWidget/>
        { /*<ProductCard/> */}
-       { /*<ProductWidget/> */}
+       </HomeLayout>
         <Footer/>
        
 
