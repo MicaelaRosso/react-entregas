@@ -1,17 +1,18 @@
 import React from 'react'
 import { products } from '../../../data/products'
 import { ProductCard } from '../product_card/product_card';
+import { ProductosContainer, ProductosWrapper } from './styles';
 
 export const ProductWidget = () => {
   return (
-    <div>
+    <ProductosWrapper>
         <h2>Nuestros productos</h2>
-       <div> 
+       <ProductosContainer> 
         {
             products.map((product) => <ProductCard key={product.id} {...product}/>)
         }
-        </div>
-    </div>
+        </ProductosContainer>
+    </ProductosWrapper>
     
     )
 };

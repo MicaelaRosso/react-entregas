@@ -6,13 +6,18 @@ export const GlobalStyles = createGlobalStyle`
     --orange: #ff9d01;
     --magenta: #FF005C;
     --gray-bg: #2b2b2c;
+    --boxshadowfooter: 20px -20px 50px rgba(53, 209, 71, 0.45);
+    --gradientback: linear-gradient(90deg, #353533 0%, #1ec34f 100%);
   --btn-gradient: linear-gradient(83deg, #ffa100, #fb103d);
   --btn-gradient-secondary: linear-gradient(140deg, #3B3022, #3B2329);
   margin: 0;
   padding: 0;
   width: 100%;
+  
+  
   }
   html{
+    
     scroll-behavior: smooth;
   }
     body {

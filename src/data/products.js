@@ -10,16 +10,16 @@ export const products = [
     
     { 
         id: 2,
-        title: "CORDATUM (PHILODENDRON HEDERACEUM)",
+        title: "CORDATUM",
         img: "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/568/884/products/fotos-plantas-1441-e618dfca0c7760dd5316483229064817-1024-1024.webp",
-        desc: "¡Tamaño grande, igual a las fotos",
+        desc: "Largo colgante: 1,00 M aprox",
         price: 9000,
         category: "Exterior",
     },
     
     { 
         id: 3,
-        title: "MONSTERA ADANSONII",
+        title: "MONSTERA ADANSONI",
         img:"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/568/884/products/fotos-plantas-1201-d802150c469b2f851916483977147915-1024-1024.webp",
         desc: "Altura: 45 a 55 cm",
         price: 18000,
@@ -46,18 +46,18 @@ export const products = [
 
     { 
         id: 6,
-        title: "Fantasía",
+        title: "FANTASÍA",
         img: "https://pf01.cdn.imgeng.in/foto_producto/48_ramo_rosas_precio_imbatible_san_valentin_.jpg",
-        desc:"24 rosas Premium con Gipsófila, en ramo.",
+        desc:"12 rosas con Gipsófila, en ramo.",
         price: 30000,
         category: "Ramos",
     },
     
     { 
         id: 7,
-        title: "Encanto",
+        title: "ENCANTO",
         img: "https://pf01.cdn.imgeng.in/foto_producto/1_encanto_000121_720.jpg",
-        desc:"Rosas de tallo largo en jarrón de vidrio.",
+        desc:"15 Rosas en jarrón de vidrio.",
         price: 45000,
         category: "Ramos",
     },

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 /*Contenedor del Header con estilos generales*/
 export const HeaderContainer = styled.div`
+border: 2px solid yellow;
     display: flex;
     flex-direction: column;
    justify-content: center;
@@ -18,6 +19,7 @@ export const HeaderContainer = styled.div`
 `
 /*Contenedor del texto del Header*/
 export const HeaderTextContainer = styled.div`
+border: 2px solid yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;

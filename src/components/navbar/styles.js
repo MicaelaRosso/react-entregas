@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const NavbarContainer = styled.div `
+border: 2px solid orange;
 height: 100px;
 background-color: #333333;
 display: flex;
@@ -13,6 +14,7 @@ padding: 1rem 2rem;
 `
 
 export const LinksContainer = styled.div `
+border: 2px solid blue;
 color: white;
 display: flex;
 justify-content: center;

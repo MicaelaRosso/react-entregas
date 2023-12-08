@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 export const CategoriasWrapper = styled.div`
 display: flex;
 flex-direction: column;
-max-width: 1300px;
-margin: 0 15px;
+max-width: 100%;/*1300px*/
+margin: 15px auto;
 h2 {
     text-align: center;
 }
@@ -21,9 +21,9 @@ h2 {
 export const CategoriasContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
-gap: 20px;
+gap: 30px;
 text-align: center;
 user-select: none;
 img {
