@@ -6,6 +6,7 @@ justify-content: center;
 text-align: center;
 box-shadow: var(--boxshadowfooter);
 padding-bottom: 20px;
+height: 80px;
 `
 export const LinksFooterContainer = styled.div`
 padding-top: 20px;

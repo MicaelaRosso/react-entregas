@@ -16,6 +16,7 @@ border: 2px solid yellow;
     @media (max-width: 1000px) {
         flex-direction: column;
     }
+   
 `
 /*Contenedor del texto del Header*/
 export const HeaderTextContainer = styled.div`
@@ -25,11 +26,13 @@ border: 2px solid yellow;
     justify-content: center;
     align-items: center;
     width: 60%;
+    text-align: center;
     h1 {
         margin: 10px 0;
-        font-size: 4rem;
-       
+       font-size: 4rem;
+     
     }
+    
     h2 {
         margin: 10px 0;
         font-size: 2.5rem;
@@ -47,6 +50,9 @@ border: 2px solid yellow;
         align-items: center;
         text-align: center;
     }
+
+
+  
 `
 /*Contenedor imagen*/
 
